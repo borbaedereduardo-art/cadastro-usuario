@@ -1,0 +1,50 @@
+.user-list h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #34495e;
+  }
+  
+  .no-users {
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  .user-list ul {
+    list-style: none;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fdfdfd;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .user-item div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-item span {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    margin-top: 3px;
+  }
+  
+  .btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c0392b;
+  }
